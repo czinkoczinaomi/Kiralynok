@@ -15,7 +15,7 @@ public class Kiralynok {
     }
     public void megoldasok(){
     feladat4();
-    feladat5();
+    feladat6();
     }
 
     private void feladat4() {
@@ -25,12 +25,13 @@ public class Kiralynok {
         t.megjelenit();
     }
 
-    private void feladat5() {
+    private void feladat6() {
          //6.feladat
         System.out.println("6. feladat: feltöltött tábla:");
         t.elhelyez(8);
         t.megjelenit();
     }
+  
     
     
 }
