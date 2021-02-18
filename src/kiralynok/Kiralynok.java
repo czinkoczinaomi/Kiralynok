@@ -16,6 +16,7 @@ public class Kiralynok {
     public void megoldasok(){
     feladat4();
     feladat6();
+    feladat9();
     }
 
     private void feladat4() {
@@ -31,7 +32,12 @@ public class Kiralynok {
         t.elhelyez(8);
         t.megjelenit();
     }
-  
+  private void feladat9(){
+   //9.feladat
+        System.out.println("9. feladat:");
+        System.out.println("üres oszlopok száma: " + t.uresOszlopokSzama());
+        System.out.println("üres sorok száma: " + t.uresSorokSzama());
+  }
     
     
 }
