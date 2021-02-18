@@ -8,6 +8,10 @@ public class Kiralynok {
         System.out.println("4. feladat: üres tábla megjelenítése");
         Tabla t=new Tabla('#');
         t.megjelenit();
+        //6.feladat
+        System.out.println("6. feladat: feltöltött tábla:");
+        t.elhelyez(8);
+        t.megjelenit();
     }
     
 }
